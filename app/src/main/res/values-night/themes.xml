@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyCalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#17181A</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SCREEN">
+        <item name="android:background">#17181A</item>
+    </style>
+    <style name="NORMAL_BUTTON">
+        <item name="android:background">@drawable/normal_button_night</item>
+        <item name="android:textColor">#29A8FF</item>
+    </style>
+    <style name="OPERATOR_BUTTON">
+        <item name="android:background">@drawable/operator_button_night</item>
+        <item name="android:textColor">#24A5FF</item>
+    </style>
+    <style name="EQUALS_BUTTON">
+        <item name="android:background">@drawable/equals_button_night</item>
+        <item name="android:textColor">#B2DAFF</item>
+    </style>
+    <style name="TEXT1">
+        <item name="android:textColor">#818181</item>
+    </style>
+    <style name="TEXT2">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
